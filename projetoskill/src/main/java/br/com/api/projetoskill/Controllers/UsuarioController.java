@@ -55,18 +55,6 @@ public class UsuarioController {
 
 	}
 
-//	@PostMapping("/login")
-//	public ResponseEntity<?> login(@RequestBody Map<String, String> credentials) {
-//		String login = credentials.get("login");
-//		String senha = credentials.get("senha");
-//
-//		try {
-//			String token = usuarioService.login(login, senha);
-//			return new ResponseEntity<>(token, HttpStatus.OK);
-//		} catch (Exception e) {
-//			return new ResponseEntity<>(e.getMessage(), HttpStatus.UNAUTHORIZED);
-//		}
-//	}
 
 //	@PostMapping("/login")
 //	public ResponseEntity<?> AutenticarUsuario(@RequestBody Map<String, String> credentials) {
@@ -102,7 +90,7 @@ public class UsuarioController {
 
 			// Se o processo de autenticacao foi concluido com sucesso - etapa anterior,
 			// eh gerado o JWT
-//		            String token = jwtUtil.generateToken(body.getEmail());
+
 
 			Optional<Usuario> usuario = usuarioRepository.findByLogin(body.getLogin());
 			String token = "";
