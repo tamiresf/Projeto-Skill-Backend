@@ -9,7 +9,7 @@
 <p>Este é um projeto que visa criar uma aplicação completa para gerenciar habilidades (skills) de usuários. O sistema possui um frontend web construído em React, um frontend mobile construído em React Native, um backend em Spring Boot e utiliza um banco de dados PostgreSQL para armazenar dados.</p>
 
 ## Instalação e execução do projeto
-<p>-Git clone [https://github.com/tamiresf/Trab_Indivdual_API](https://github.com/tamiresf/Projeto-Skill-Backend.git)</p>
+<p>-Git clone [https://github.com/tamiresf/Projeto-Skill-Backend.git]</p>
 
 ## Funcionalidades do projeto
 Backend (Spring Boot):
