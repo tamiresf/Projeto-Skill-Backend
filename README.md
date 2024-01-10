@@ -14,13 +14,13 @@
 ## Funcionalidades do projeto
 Backend (Spring Boot):
 
-Serviço de Login que verifica credenciais de usuários, criptografa senhas e emite tokens de acesso.
-Serviço de Cadastro para novos usuários, armazenando senhas criptografadas no banco de dados.
-Serviço de Listagem de Skills associadas a um usuário específico, incluindo informações de níveis.
-Serviços para associar, atualizar e excluir habilidades de usuários no banco de dados.
-Autenticação JWT para garantir acesso seguro aos serviços, exceto o de Login.
-Utilização do Spring Fox para documentação automática dos serviços através do Swagger.
-Banco de Dados (PostgreSQL):
+<p>Serviço de Login: que verifica credenciais de usuários, criptografa senhas e emite tokens de acesso.</p>
+<p>Serviço de Cadastro: para novos usuários, armazenando senhas criptografadas no banco de dados.</p>
+<p>Serviço de Listagem de Skills: associadas a um usuário específico, incluindo informações de níveis.</p>
+<p>Serviços: para associar, atualizar e excluir habilidades de usuários no banco de dados.</p>
+<p>Autenticação JWT para garantir acesso seguro aos serviços, exceto o de Login.</p>
+<p>Utilização do Spring Fox para documentação automática dos serviços através do Swagger.</p>
+<p>Banco de Dados (PostgreSQL):</p>
 
 Modelo de banco de dados projetado para atender aos requisitos do sistema, com a devida aplicação de constraints e sequences para IDs auto incrementados.
 O código-fonte deste projeto está disponível em repositórios públicos no GitHub para cada componente (frontend web, frontend mobile, backend Spring Boot e a modelagem do banco de dados).
